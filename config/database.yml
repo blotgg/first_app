@@ -20,6 +20,10 @@ test:
 
 production:
   adapter: pg
-  database: db/production.pg
+  host: ec2-54-235-173-50.compute-1.amazonaws.com
+  database: deusq3ghe6dpbs
+  user: iatqkophdzhkqb
+  password: PUNnearlxTsMJVAKN1Hq34TK6h
+  port: 5432
   pool: 5
   timeout: 5000
